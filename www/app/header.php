@@ -20,7 +20,40 @@
     <![endif]-->
   </head>
   <body>
-    
-    
+      <div class="container">
+          <div class="row">
+            <h1>Название сайта</h1>
+            <div class="navbar navbar-inverse">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu"> 
+                            <span class="sr-only">открыть навишацию</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">ЛОГОТИП</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="responsive-menu">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Пункт 1</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Пункт 2<b class="caret"></b></a>
+                                <ul class="dropdown-menu" id="responsive-dropdownmenu-menu">
+                                    <li><a href="#">Подпункт 1</a></li>
+                                    <li><a href="#">Подпункт 2</a></li>
+                                    <li><a href="#">Подпункт 3</a></li>
+                                    <li><a href="#">Подпункт 4</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Пункт 3</a></li>
+                            <li><a href="#">Пункт 4</a></li>                            
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+          </div>
+      </div>
+         
       
   </body>
