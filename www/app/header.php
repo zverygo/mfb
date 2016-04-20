@@ -52,7 +52,7 @@
                             <li><a href="#">Пункт 4</a></li>                            
                         </ul>
                         <!-- авторизация-->
-                        <form action="" class="navbar-form navbar-right" hidden="sm">
+                        <form action="" class="navbar-form navbar-right" >
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="E-mail" value="">
                             </div>
