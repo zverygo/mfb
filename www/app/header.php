@@ -18,13 +18,14 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-      <div class="container">
-          <div class="row">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
             <h1>Название сайта</h1>
             <div class="navbar navbar-inverse">
                 <div class="container">
+                    <!-- кнопка для отображения меню на маленьких экранах -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu"> 
                             <span class="sr-only">открыть навишацию</span>
@@ -34,6 +35,7 @@
                         </button>
                         <a class="navbar-brand" href="#">ЛОГОТИП</a>
                     </div>
+                    <!-- мееню -->
                     <div class="collapse navbar-collapse" id="responsive-menu">
                         <ul class="nav navbar-nav">
                             <li><a href="#">Пункт 1</a></li>
@@ -49,11 +51,22 @@
                             <li><a href="#">Пункт 3</a></li>
                             <li><a href="#">Пункт 4</a></li>                            
                         </ul>
+                        <!-- авторизация-->
+                        <form action="" class="navbar-form navbar-right" hidden="sm">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="E-mail" value="">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Password" value="">
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fa fa-sing-in"></i> IN
+                            </button> 
+                        </form>
                     </div> 
                 </div>
             </div>
-          </div>
-      </div>
-         
-      
-  </body>
+        </div>
+    </div>
+    
+</body>
