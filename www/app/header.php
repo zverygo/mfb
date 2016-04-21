@@ -51,10 +51,8 @@
                             <li><a href="#">Пункт 3</a></li>
                             <li><a href="#">Пункт 4</a></li>                            
                         </ul>
-
                         <!-- авторизация-->
-                        <form action="" class="navbar-form navbar-right" >
-=======
+                        <form action="" class="navbar-form navbar-right">
                          <!-- кнопка вызова модального окна авторизации-->
                          <button type="button" class="btn btn-success btn-right" data-toggle="modal" data-target="#modal-1">Login</button>
                     </div> 
@@ -67,13 +65,13 @@
         <div class="modal-dialog modal-sm">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button class="close" type="button" data-dismiss="modal">x</button>
-                    <h4 class="modal-title">НАзвание окна</h4>
-                    <i class="fa fa-close"></i> <!-- добавить файлы с литеральныит иконками -->
+                    <button class="close" type="button" data-dismiss="modal">
+                        <i class="fa fa-close"></i>
+                    </button>
+                    <h4 class="modal-title">Нaзвание окна</h4>
                 </div>
                 <div class="modal-body">
                     <form action="" class="navbar-form navbar-right">
->>>>>>> origin/master
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="E-mail" value="">
                             </div>
@@ -82,7 +80,7 @@
                             </div>
                             <div>
                             <button type="submit" class="btn btn-primary">
-                                <i class="fa fa-sing-in"></i> IN
+                                <i class="fa fa-sign-in" aria-hidden="true"></i> IN
                             </button> 
                             </div>
                     </form>
