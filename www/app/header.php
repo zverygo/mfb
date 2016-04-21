@@ -20,7 +20,7 @@
     <![endif]-->
 </head>
 <body>
-    <!-- навизация -->
+    <!-- навигация -->
     <div class="container">
         <div class="row">
             <h1>Название сайта</h1>
@@ -107,46 +107,147 @@
         </div>
         <!-- посты -->
         <div class="row">
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+            <div class="col-xs-6 col-sm-4">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/300x240" alt="">
+                    <img src="http://placehold.it/400x240" alt="">
+                    <div class="caption">
+                        <h3>Название поста</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal-2">Подробнее <i class="fa fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+            <div class="col-xs-6 col-sm-4">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/300x240" alt="">
+                    <img src="http://placehold.it/400x240" alt="">
+                    <div class="caption">
+                        <h3>Название поста</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+            <div class="col-xs-6 col-sm-4">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/300x240" alt="">
+                    <img src="http://placehold.it/400x240" alt="">
+                    <div class="caption">
+                        <h3>Название поста</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+            <div class="col-xs-6 col-sm-4">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/300x240" alt="">
+                    <img src="http://placehold.it/400x240" alt="">
+                    <div class="caption">
+                        <h3>Название поста</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+            <div class="col-xs-6 col-sm-4">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/300x240" alt="">
+                    <img src="http://placehold.it/400x240" alt="">
+                    <div class="caption">
+                        <h3>Название поста</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+            <div class="col-xs-6 col-sm-4">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/300x240" alt="">
+                    <img src="http://placehold.it/400x240" alt="">
+                    <div class="caption">
+                        <h3>Название поста</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+            <div class="col-xs-6 col-sm-4">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/300x240" alt="">
+                    <img src="http://placehold.it/400x240" alt="">
+                    <div class="caption">
+                        <h3>Название поста</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+            <div class="col-xs-6 col-sm-4">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/300x240" alt="">
+                    <img src="http://placehold.it/400x240" alt="">
+                    <div class="caption">
+                        <h3>Название поста</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/400x240" alt="">
+                    <div class="caption">
+                        <h3>Название поста</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/400x240" alt="">
+                    <div class="caption">
+                        <h3>Название поста</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- модалки для постов-->
+    <div class="modal fade" id="modal-2">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal">
+                        <i class="fa fa-close"></i>
+                    </button>
+                    <h4 class="modal-title">Нaзвание окна</h4>
+                </div>
+                <div class="modal-body">
+                    <!-- Слайдер-->
+                    <div id="carousel-1" class="carousel slide">
+                        <ol class="carousel-indicators">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <a href="carousel-1" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"</a>
+                            <a href="carousel-1" class="right carousel-control" data-side="next"><span class="glyphicon glyphicon-chevron-right"</a>
+                        </div>
+                    </div>
+                    <!-- рассказ на вольную тему -->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" type="button" data-dismiss="modal">Закррыть</button>
+                </div>
+            </div>
+        </div>
+    </div>    
+        
 </body>
