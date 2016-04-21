@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,6 +20,7 @@
     <![endif]-->
 </head>
 <body>
+    <!-- навизация -->
     <div class="container">
         <div class="row">
             <h1>Название сайта</h1>
@@ -53,8 +54,8 @@
                         </ul>
                         <!-- авторизация-->
                         <form action="" class="navbar-form navbar-right">
-                         <!-- кнопка вызова модального окна авторизации-->
-                         <button type="button" class="btn btn-success btn-right" data-toggle="modal" data-target="#modal-1">Login</button>
+                        <!-- кнопка вызова модального окна авторизации-->
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal-1">Login</button>
                     </div> 
                 </div>
             </div>
@@ -91,5 +92,61 @@
             </div>
         </div>
     </div>
-    
+    <!-- записи на странице -->
+    <div class="container">
+        <!-- вторая навигация -->
+        <div class="row">
+            <div class="container">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#">Элемент 1 <span class="badge">2</span></a></li>
+                    <li><a href="#">Элемент 2 <span class="badge">24</span></a></li>
+                    <li><a href="#">Элемент 3 <span class="badge">14</span></a></li>
+                    <li><a href="#">Элемент 4 <span class="badge">34</span></a></li>
+                </ul>
+            </div>    
+        </div>
+        <!-- посты -->
+        <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/300x240" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/300x240" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/300x240" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/300x240" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/300x240" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/300x240" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/300x240" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/300x240" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
