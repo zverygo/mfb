@@ -51,19 +51,44 @@
                             <li><a href="#">Пункт 3</a></li>
                             <li><a href="#">Пункт 4</a></li>                            
                         </ul>
+
                         <!-- авторизация-->
                         <form action="" class="navbar-form navbar-right" >
+=======
+                         <!-- кнопка вызова модального окна авторизации-->
+                         <button type="button" class="btn btn-success btn-right" data-toggle="modal" data-target="#modal-1">Login</button>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- модальное окно для авторизации (пробное) -->
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal">x</button>
+                    <h4 class="modal-title">НАзвание окна</h4>
+                    <i class="fa fa-close"></i> <!-- добавить файлы с литеральныит иконками -->
+                </div>
+                <div class="modal-body">
+                    <form action="" class="navbar-form navbar-right">
+>>>>>>> origin/master
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="E-mail" value="">
                             </div>
                             <div class="form-group">
                                 <input type="password" class="form-control" placeholder="Password" value="">
                             </div>
+                            <div>
                             <button type="submit" class="btn btn-primary">
                                 <i class="fa fa-sing-in"></i> IN
                             </button> 
-                        </form>
-                    </div> 
+                            </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <!--<button class="btn btn-danger" type="button" data-dismiss="modal">Закррыть</button>-->
                 </div>
             </div>
         </div>
