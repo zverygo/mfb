@@ -20,7 +20,7 @@
     <![endif]-->
 </head>
 <body>
-    <!-- навигация -->
+    <!-- навигация --> 
     <div class="container">
         <div class="row">
             <h1>Название сайта</h1>
@@ -56,12 +56,13 @@
                         <form action="" class="navbar-form navbar-right">
                         <!-- кнопка вызова модального окна авторизации-->
                         <button type="button" class="btn" data-toggle="modal" data-target="#modal-1">Login</button>
+                            
                     </div> 
                 </div>
             </div>
         </div>
     </div>
-    <!-- модальное окно для авторизации (пробное) -->
+    <!-- модальное окно для авторизации -->
     <div class="modal fade" id="modal-1">
         <div class="modal-dialog modal-sm">
             <div class="modal-content">
@@ -76,6 +77,7 @@
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="E-mail" value="">
                             </div>
+                            
                             <div class="form-group">
                                 <input type="password" class="form-control" placeholder="Password" value="">
                             </div>
@@ -124,7 +126,7 @@
                     <div class="caption">
                         <h3>Название поста</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal-2">Подробнее <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -134,7 +136,7 @@
                     <div class="caption">
                         <h3>Название поста</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal-2">Подробнее <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -144,7 +146,7 @@
                     <div class="caption">
                         <h3>Название поста</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal-2">Подробнее <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -154,7 +156,7 @@
                     <div class="caption">
                         <h3>Название поста</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal-2">Подробнее <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -164,7 +166,7 @@
                     <div class="caption">
                         <h3>Название поста</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal-2">Подробнее <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -174,7 +176,7 @@
                     <div class="caption">
                         <h3>Название поста</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal-2">Подробнее <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -184,7 +186,7 @@
                     <div class="caption">
                         <h3>Название поста</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal-2">Подробнее <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -194,7 +196,7 @@
                     <div class="caption">
                         <h3>Название поста</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal-2">Подробнее <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -204,14 +206,14 @@
                     <div class="caption">
                         <h3>Название поста</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a href="#" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal-2">Подробнее <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
             
         </div>
     </div>
-    <!-- модалки для постов-->
+    <!-- модалка для постов-->
     <div class="modal fade" id="modal-2">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
@@ -223,7 +225,7 @@
                 </div>
                 <div class="modal-body">
                     <!-- Слайдер-->
-                    <div id="carousel-1" class="carousel slide">
+                    <div id="carousel-1" class="carousel slide hidden-sm hidden-xs" >
                         <ol class="carousel-indicators">
                             <li class="active" data-target="#carousel-1" data-slide="0"></li>
                             <li data-target="#carousel-1" data-slide="1"></li>
@@ -262,18 +264,18 @@
                         </a>
                     </div>
                     <!-- рассказ на вольную тему -->
-                    
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    
-                </div>
+                    <div class="row">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                      </div>
+                    </div>    
                 <div class="modal-footer">
                     <button class="btn btn-danger" type="button" data-dismiss="modal">Закррыть</button>
                 </div>
