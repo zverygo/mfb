@@ -231,7 +231,6 @@
                             <li data-target="#carousel-1" data-slide="1"></li>
                             <li data-target="#carousel-1" data-slide="2"></li>
                         </ol>
-                        
                         <div class="carousel-inner">
                             <div class="item active">
                                 <img src="http://placehold.it/1200x240" alt="">
@@ -255,7 +254,6 @@
                                 </div>
                             </div>
                         </div>
-                        
                         <a href="#carousel-1" class="left carousel-control" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left"</span>
                         </a>
@@ -263,37 +261,38 @@
                             <span class="glyphicon glyphicon-chevron-right"</span>
                         </a>
                     </div>
-                    <!-- рассказ на вольную тему -->
-                    <div class="container">
-                        <div class="row">
+                    <!-- ------------- -->
+                    <div class="modal-body">
                         
-                        </div>                    
-                    </div>
-                        <div class="container">
                             <div class="row">
-                                <div class="col-lg-4 col-md-4">
-                                    <p>11111 1Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                                <div class="col-lg-4 col-sm-6">
+                                    <p>11111 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                 </div>
-                                <div class="row col-lg-8 col-md-6">
-                                    <div class="col-lg-6">
-                                        <p>222222 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    
+                                <div class="row col-lg-8 col-sm-6 col-sm-12">
+                                    <div class="col-lg-6 col-md-6">
+                                        <p>2222222 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    
                                     </div>
-                                    <div class="col-lg-6">
-                                        <p>33333 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>                
+                                    <div class="col-lg-6 col-md-6">
+                                        <p>3333333 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>                
                                     </div>
                                 </div>
+
                             </div>
-                        </div>
-                    <!--<p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
+                       
+                        <!-- ------------ -->
+                    </div>
+                    <!--
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>-->
-                      
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    -->  
                     </div>    
                 <div class="modal-footer">
                     <button class="btn btn-danger" type="button" data-dismiss="modal">Закррыть</button>
