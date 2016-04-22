@@ -22,10 +22,16 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4"></div>
-            <div class="col-lg-8">
-                <div class="col-md-6"></div>
-                <div class="col-md-6"></div>
+            <div class="col-lg-4">
+                <p>11111</p>
+            </div>
+            <div class="row col-lg-8">
+                <div class="col-lg-6">
+                    <p>2222222</p>    
+                </div>
+                <div class="col-lg-6">
+                    <p>3333333</p>                
+                </div>
             </div>
         </div>
     </div>
