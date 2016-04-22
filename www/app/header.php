@@ -117,6 +117,7 @@
                     </div>
                 </div>
             </div>
+            
             <div class="col-xs-6 col-sm-4">
                 <div class="thumbnail">
                     <img src="http://placehold.it/400x240" alt="">
@@ -207,6 +208,7 @@
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
     <!-- модалки для постов-->
@@ -223,16 +225,44 @@
                     <!-- Слайдер-->
                     <div id="carousel-1" class="carousel slide">
                         <ol class="carousel-indicators">
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li class="active" data-target="#carousel-1" data-slide="0"></li>
+                            <li data-target="#carousel-1" data-slide="1"></li>
+                            <li data-target="#carousel-1" data-slide="2"></li>
                         </ol>
+                        
                         <div class="carousel-inner">
-                            <a href="carousel-1" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"</a>
-                            <a href="carousel-1" class="right carousel-control" data-side="next"><span class="glyphicon glyphicon-chevron-right"</a>
+                            <div class="item active">
+                                <img src="http://placehold.it/1200x240" alt="">
+                                <div class="carousel-caption">
+                                    <h3>Первый слайд</h3>
+                                    <p>Описание первого слайда</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="http://placehold.it/1200x240" alt="">
+                                <div class="carousel-caption">
+                                    <h3>Второй слайд</h3>
+                                    <p>Описание второго слайда</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="http://placehold.it/1200x240" alt="">
+                                <div class="carousel-caption">
+                                    <h3>Третий слайд</h3>
+                                    <p>Описание третьего слайда</p>
+                                </div>
+                            </div>
                         </div>
+                        
+                        <a href="#carousel-1" class="left carousel-control" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"</span>
+                        </a>
+                        <a href="#carousel-1" class="right carousel-control" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"</span>
+                        </a>
                     </div>
                     <!-- рассказ на вольную тему -->
+                    
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
@@ -242,6 +272,7 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
+                    
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-danger" type="button" data-dismiss="modal">Закррыть</button>
