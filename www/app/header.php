@@ -264,8 +264,12 @@
                         </a>
                     </div>
                     <!-- рассказ на вольную тему -->
-                    <div class="row">
-                        <p>
+                    <div class="container">
+                        <div class="row">
+                        
+                        </div>                    
+                    </div>
+                    <!--    <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
                         <p>
@@ -273,8 +277,8 @@
                         </p>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                      </div>
+                        </p>-->
+                      
                     </div>    
                 <div class="modal-footer">
                     <button class="btn btn-danger" type="button" data-dismiss="modal">Закррыть</button>
