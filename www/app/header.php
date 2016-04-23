@@ -119,17 +119,18 @@
                     </div>
                 </div>
             </div>
-            
+            <!-- -------------- -->
             <div class="col-xs-6 col-sm-4">
                 <div class="thumbnail">
                     <img src="http://placehold.it/400x240" alt="">
                     <div class="caption">
                         <h3>Название поста</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal-2">Подробнее <i class="fa fa-arrow-right"></i></a>
+                        <a href="test.php" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
+            <!-- ----------------------- -->
             <div class="col-xs-6 col-sm-4">
                 <div class="thumbnail">
                     <img src="http://placehold.it/400x240" alt="">
@@ -261,8 +262,7 @@
                             <span class="glyphicon glyphicon-chevron-right"</span>
                         </a>
                     </div>
-                    <!-- ------------- -->
-                    <div class="modal-body">
+                        <div class="modal-body">
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-6">
                                     <img src="http://placehold.it/240x360" alt="" class="hidden-xs">
@@ -287,5 +287,6 @@
             </div>
         </div>
     </div>    
+        
         
 </body>
