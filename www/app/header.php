@@ -126,7 +126,7 @@
                     <div class="caption">
                         <h3>Название поста</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a href="test.php" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
+                        <a href="post_2.php" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@
                     <div class="caption">
                         <h3>Название поста</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal-2">Подробнее <i class="fa fa-arrow-right"></i></a>
+                        <a href="post_3.php" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -266,6 +266,8 @@
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-6">
                                     <img src="http://placehold.it/240x360" alt="" class="hidden-xs">
+                                    <br> <!-- два br чтоб текст не сливался с картинкой-->
+                                    <br>
                                     <p><em>11111 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</em></p>
                                 </div>
                                 <div class="row col-lg-8 col-md-8">
