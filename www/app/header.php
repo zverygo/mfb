@@ -147,7 +147,7 @@
                     <div class="caption">
                         <h3>Название поста</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal-2">Подробнее <i class="fa fa-arrow-right"></i></a>
+                         <a href="post_4.php" class="btn btn-success">Подробнее <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

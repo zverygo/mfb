@@ -6,6 +6,6 @@ ini_set ('display_startup_errors', 1);
 
 require_once 'app/header.php';
 
-require 'app/footer.php';
+require_once 'app/footer.php';
 
 ?>
