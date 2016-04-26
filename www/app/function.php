@@ -22,7 +22,7 @@ function post (){
 
 
 //функция вывода наименования постов во вкладку "управление постами"
-function post_view () {
+function post_view_adm () {
 	$post=mysql_query("select * from posts");
 	echo '<table class="table table-striped">';
 	//echo '<caption>Name table.</caption>'; //Название таблицы
@@ -30,7 +30,7 @@ function post_view () {
 	echo '<tbody>';
 	while($act_post=mysql_fetch_array($post))
 	{
-		echo '<tr><th scope="row">'.$act_post['id_post']."&nbsp;</th><td>".$act_post['title_post']."&nbsp;</td><td>"."Редактировать"."&nbsp;</td><td>"."Удалить"."&nbsp;</td></tr>";
+		echo '<tr><th scope="row">'.$act_post['id_post']."&nbsp;</th><td>".$act_post['title_post']."&nbsp;</td><td>".'Редактировать'."&nbsp;</td><td>".'Удалить'."&nbsp;</td></tr>";
 	}
 	echo '</tbody></table>';
 }

@@ -70,21 +70,15 @@
                     <div class="tab-pane fade in active" id="post_plus">
                         <div class="container">
                             <div class="row bs-example">
-                                
+                                 <form method="post" action="index.php">
                                     <caption>Название поста.</caption>
-                                    <form>
-                                        <input type="text" class="form-control" placeholder="Text input" id="name_post">
-                                    </form>    
-                                
-                                <br>
-                                
+                                    <input type="text" class="form-control" placeholder="Text input" name="name_post" autofocus>
+                                    <br>
                                     <caption>Тело поста.</caption>
-                                    <form>
-                                        <textarea class="form-control" rows="10" placeholder="Textarea" id="body_post"></textarea>
-                                    </form>
-                                
-                                <br>
-                                <input type="submit" value="Сохранить" class="btn">
+                                    <textarea class="form-control" rows="10" placeholder="Textarea" name="body_post"></textarea>
+                                    <br>
+                                    <input type="submit" value="Сохранить" class="btn">
+                                </form>
                             </div>
                         </div>    
                     </div>
@@ -93,7 +87,7 @@
                         <p>
                             <?php
                                 require_once 'app/function.php';
-                                echo post_view ();
+                                echo post_view_adm ();
                             ?>
                         </p>
                     </div>
