@@ -7,6 +7,7 @@ ini_set ('display_startup_errors', 1);
 
 require_once 'config.php';
  //функция вывода постов 
+
 function post (){
     $post = mysql_query("select * from posts;");
     while($act_post=mysql_fetch_array($post))

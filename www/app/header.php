@@ -52,10 +52,13 @@
                             <li><a href="#">Пункт 3</a></li>
                             <li><a href="#">Пункт 4</a></li>                            
                         </ul>
-                        <!-- авторизация-->
+                        
                         <form action="" class="navbar-form navbar-right">
+                        <!-- кнопка перехода в админ панель -->
+                        <a href="adm_pn.php" class="btn btn-primary" >Admin panel</a>   
                         <!-- кнопка вызова модального окна авторизации-->
-                        <button type="button" class="btn" data-toggle="modal" data-target="#modal-1">Login</button>
+                        <button type="button" class="btn btn-primery" data-toggle="modal" data-target="#modal-1">Login</button>
+                       
                             
                     </div> 
                 </div>
@@ -288,7 +291,5 @@
                 </div>
             </div>
         </div>
-    </div>    
-        
-        
+    </div>
 </body>
