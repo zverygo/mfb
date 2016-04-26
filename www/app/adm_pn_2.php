@@ -52,41 +52,57 @@
                             <li><a href="#">Пункт 3</a></li>
                             <li><a href="#">Пункт 4</a></li>                            
                         </ul>
-                        
-                        
-                       
-                            
                     </div> 
                 </div>
             </div>
         </div>
     </div>
-
-   
     <div class="container">
         <div class="row">
             <div class="tabs">
                 <ul class="nav nav-tabs">
-                    <li class="active"><a href="#tab_1" data-toggle="tab">Tab 1</a></li>
-                    <li><a href="#tab_2" data-toggle="tab">Tab 2</a></li>
-                    <li><a href="#tab_3" data-toggle="tab">Tab 3</a></li>
+                    <li class="active"><a href="#post_plus" data-toggle="tab">Добавить пост</a></li>
+                    <li><a href="#posts_ctrl" data-toggle="tab">Управление постами</a></li>
+                    <li><a href="#users_ctrl" data-toggle="tab">Управление пользователями</a></li>
                 </ul>
                 <div class="tab-content">
-                    <div class="tab-pane fade in active" id="tab_1">
-                        <p>Body tab 1</p>
+                    <!-- Вкладка отвечающая за добавлениепостов-->
+                    <div class="tab-pane fade in active" id="post_plus">
+                        <div class="container">
+                            <div class="row bs-example">
+                                
+                                    <caption>Название поста.</caption>
+                                    <form>
+                                        <input type="text" class="form-control" placeholder="Text input" id="name_post">
+                                    </form>    
+                                
+                                <br>
+                                
+                                    <caption>Тело поста.</caption>
+                                    <form>
+                                        <textarea class="form-control" rows="10" placeholder="Textarea" id="body_post"></textarea>
+                                    </form>
+                                
+                                <br>
+                                <input type="submit" value="Сохранить" class="btn">
+                            </div>
+                        </div>    
                     </div>
-                    <div class="tab-pane fade" id="tab_2">
-                        <p>Body tab 2</p>
+                    <!-- Вкладка отвечающая за управление постами -->
+                    <div class="tab-pane fade" id="posts_ctrl">
+                        <p>
+                            <?php
+                                require_once 'app/function.php';
+                                echo post_view ();
+                            ?>
+                        </p>
                     </div>
-                    <div class="tab-pane fade" id="tab_3">
-                        <p>Body tab 3</p>
+                    
+                    <div class="tab-pane fade" id="users_ctrl">
+                        <p>Управление пользователями</p>
                     </div>
                 </div> 
             </div>
         </div>    
     </div>
-    <br>
-    <br>
-        
-        
 </body>
